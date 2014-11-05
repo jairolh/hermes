@@ -1,0 +1,33 @@
+<!-- Documentation produced by the Html generator of Bouml (http://bouml.free.fr) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class funciones</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class funciones</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="refclass129648"></a>
+<p>Clase que contiene metodos que recatan las variables, almacenandolas en una cadena, realiza la conexion a la base de datos y contiene las funciones para guarda, editar, listar y corregir los registros, ademas verifica si el usuario esta autorizado para ingreasr al bloque y de no ser asi redirecciona a la pagina principal <br /></p><p>Declaration :</p><ul></ul><div class="sub">
+<a name="refoperation129392"></a>
+<table><tr><td><div class="element">Operation <b>procesarRegistro</b></div></td></tr></table><p>Método que rescata los valores de variables, los guarda en una cadena llamada variables, ademas busca el código del usuario que esta accediando a ella, guardandolo en una variables usuario, se conecta con la clase sql enviandole la informacion rescatada y recibe y ejecuta la senetencia sql.<br /><br /></p><p>Declaration :</p><ul><li>Uml : + procesarRegistro(in configuracion : array) : </li></ul><a name="refoperation129520"></a>
+<table><tr><td><div class="element">Operation <b>conectarDB</b></div></td></tr></table><p>Método que permite crear una conexión a la base de datos, creando un objeto acceso_db de la clase dbms.<br /></p><p>Declaration :</p><ul><li>Uml : + conectarDB(in configuracion : array) : </li></ul><a name="refrelation129392"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class129776.html#refclass129776"><b>funcionRegistro.class</b></a></li></ul><a name="refoperation131952"></a>
+<table><tr><td><div class="element">Operation <b>_construct</b></div></td></tr></table><p>Método constructor en donde se genera un objeto sql de la clase sql_noticia del bloque registro_noticia.<br /></p><p>Declaration :</p><ul><li>Uml : + _construct(in configuracion : array) : </li></ul><a name="refoperation130928"></a>
+<table><tr><td><div class="element">Operation <b>nuevoRegistro</b></div></td></tr></table><p>Método en el cúal se genera el formulario para ingresar los datos de una nueva noticia, ademas invoca la clase encriptar.class para encriptar los datos ingresados en el formulario y asi ser enviados por la URL<br /></p><p>Declaration :</p><ul><li>Uml : + nuevoRegistro(in configuracion : array, in acceso_db : array) : </li></ul><a name="refoperation131056"></a>
+<table><tr><td><div class="element">Operation <b>mostrarRegistro</b></div></td></tr></table><p>Método vacio, creado para ingresar el codigo para mostrar los datos de los registros<br /></p><p>Declaration :</p><ul><li>Uml : + mostrarRegistro(in configuracion : array, in tema : array, in id_entidad : array, in acceso_db : array, in formulario : array) : </li></ul><a name="refoperation131184"></a>
+<table><tr><td><div class="element">Operation <b>editarRegistro</b></div></td></tr></table><p>Método vacio, creado para ingresar el código de edicion de registros<br /></p><p>Declaration :</p><ul><li>Uml : + editarRegistro(in configuracion : array, in tema : array, in id_entidad : array, in acceso_db : array, in formulario : array) : </li></ul><a name="refoperation131312"></a>
+<table><tr><td><div class="element">Operation <b>corregirRegistro</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + corregirRegistro() : </li></ul><a name="refrelation129457"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class129392.html#refclass129392"><b>bloque</b></a></li></ul><a name="refrelation133762"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class132610.html#refclass132610"><b>encriptar.class</b></a></li></ul></div>
+<p>All public operations : <a href="class129648.html#refoperation131952"><b>_construct</b></a> , <a href="class129648.html#refoperation129520"><b>conectarDB</b></a> , <a href="class129648.html#refoperation131312"><b>corregirRegistro</b></a> , <a href="class129648.html#refoperation131184"><b>editarRegistro</b></a> , <a href="class129648.html#refoperation131056"><b>mostrarRegistro</b></a> , <a href="class129648.html#refoperation130928"><b>nuevoRegistro</b></a> , <a href="class129648.html#refoperation129392"><b>procesarRegistro</b></a> </p>
+</body>
+</html>

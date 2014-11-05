@@ -1,0 +1,33 @@
+<!-- Documentation produced by the Html generator of Bouml (http://bouml.free.fr) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class portal_caracteristica</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class portal_caracteristica</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="refclass139778"></a>
+<p>Tabla en la que se almacenan las caracteristicas de los activos, si son cualitativas o cuantitativas.<br /></p><p>Declaration :</p><ul><li>C++ : class portal_caracteristica </li><li>Php :  class portal_caracteristica </li></ul><div class="sub">
+<a name="refattribute135938"></a>
+<table><tr><td><div class="element">Attribute <b>id_caracteristica</b></div></td></tr></table>
+<p>Campo que actua como llave Primaria.<br />Guarda la identificación interna de la caracteristica de los activos.<br />Campo Autoincremental.<br /></p><p>Declaration :</p><ul><li>Uml : # id_caracteristica : int</li><li>C++ : protected: int id_caracteristica</li><li>Php : protected $id_caracteristica</li></ul><p>Stereotype: PK</p>
+<a name="refattribute136066"></a>
+<table><tr><td><div class="element">Attribute <b>nombre</b></div></td></tr></table>
+<p>Campo en el que se almacena la descripcion de la caracteristica del activo.<br /></p><p>Declaration :</p><ul><li>Uml : # nombre : char</li><li>C++ : protected: char nombre</li><li>Php : protected $nombre</li></ul><a name="refattribute136194"></a>
+<table><tr><td><div class="element">Attribute <b>id_tipo</b></div></td></tr></table>
+<p>Campo que actua como llave Foranea.<br />Guarda la identificación interna del tipo de caracteristica que puede ser cualitativo o cuantitativo.<br />Campo que se relaciona con id_tipo en la tabla portal_variable.<br /></p><p>Declaration :</p><ul><li>Uml : # id_tipo : int</li><li>C++ : protected: int id_tipo</li><li>Php : protected $id_tipo</li></ul><p>Stereotype: FK</p>
+<a name="refattribute136322"></a>
+<table><tr><td><div class="element">Attribute <b>descripcion</b></div></td></tr></table>
+<p>Campo en el que se guarda la descripcion de la caracteristica.<br /></p><p>Declaration :</p><ul><li>Uml : # descripcion : char</li><li>C++ : protected: char descripcion</li><li>Php : protected $descripcion</li></ul><a name="refrelation141442"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class139906.html#refclass139906"><b>portal_caracteristica_activo</b></a>, multiplicity : 1..*</li><li>C++ : protected: <a href="class139906.html#refclass139906"><b>portal_caracteristica_activo</b></a> * </li><li>Php : protected $</li></ul></div>
+</body>
+</html>

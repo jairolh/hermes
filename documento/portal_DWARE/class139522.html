@@ -1,0 +1,32 @@
+<!-- Documentation produced by the Html generator of Bouml (http://bouml.free.fr) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class portal_tipo_activo</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class portal_tipo_activo</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="refclass139522"></a>
+<p>Tabla en la que se relaciona el activo con un tipo de activo.<br /></p><p>Declaration :</p><ul><li>C++ : class portal_tipo_activo </li><li>Php :  class portal_tipo_activo </li></ul><div class="sub">
+<a name="refattribute134786"></a>
+<table><tr><td><div class="element">Attribute <b>id_tipo</b></div></td></tr></table>
+<p>Campo que actua como llave Foranea.<br />Guarda la identificación del tipo de activo.<br />Campo relacionado con id_tipo de la tabla portal_variable.<br /></p><p>Declaration :</p><ul><li>Uml : # id_tipo : int</li><li>C++ : protected: int id_tipo</li><li>Php : protected $id_tipo</li></ul><p>Stereotype: FK</p>
+<a name="refattribute134914"></a>
+<table><tr><td><div class="element">Attribute <b>id_activo</b></div></td></tr></table>
+<p>Campo que actua como llave Foranea.<br />Guarda la identificación interna de los activos.<br />Se relacioan con id_activo de la tabla portal_activo.<br /></p><p>Declaration :</p><ul><li>Uml : # id_activo : int</li><li>C++ : protected: int id_activo</li><li>Php : protected $id_activo</li></ul><p>Stereotype: FK</p>
+<a name="refattribute135042"></a>
+<table><tr><td><div class="element">Attribute <b>fecha</b></div></td></tr></table>
+<p>Campo en el que se almacena la fecha en que se relaciona el activo y el tipo.<br /></p><p>Declaration :</p><ul><li>Uml : # fecha : char</li><li>C++ : protected: char fecha</li><li>Php : protected $fecha</li></ul><a name="refrelation140802"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class139266.html#refclass139266"><b>portal_activo</b></a>, multiplicity : 1</li><li>C++ : protected: <a href="class139266.html#refclass139266"><b>portal_activo</b></a> * </li><li>Php : protected $</li></ul><a name="refrelation142978"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class137346.html#refclass137346"><b>portal_variable</b></a>, multiplicity : 1</li><li>C++ : protected: <a href="class137346.html#refclass137346"><b>portal_variable</b></a> * </li><li>Php : protected $</li></ul></div>
+</body>
+</html>

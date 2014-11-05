@@ -1,0 +1,29 @@
+<!-- Documentation produced by the Html generator of Bouml (http://bouml.free.fr) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class bloque</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class bloque</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="refclass129392"></a>
+<p>Clase que invoca metodos de las clases bloque.class, funcion.class, y sql.class, creando objetos que permiten la carga de diferentes paginas y ejecución de metodos dependiendo de los valores de algunas variables bandera.<br /></p><p>Declaration :</p><ul></ul><div class="sub">
+<a name="refrelation129264"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class129904.html#refclass129904"><b>bloque.class</b></a></li></ul><a name="refoperation130544"></a>
+<table><tr><td><div class="element">Operation <b>_construct</b></div></td></tr></table><p>Función constructora<br />Crea el objeto funcion de la clase registro_noticia<br />Crea el objeto sql de la clase sql_noticia<br /><br />Dichos objetos pueden ser invocados directamente desde cualquier método de la clase bloqueNoticia para poder ejecutar metodos de las clases registro_noticia y sql_noticias.<br /><br /></p><p>Declaration :</p><ul><li>Uml : + _construct(in configuracion : array) : </li></ul><p> Constraint :<ul>Se deben crear los objetos para poder llamar métodos de otras clases.</ul><a name="refoperation130672"></a>
+<table><tr><td><div class="element">Operation <b>html</b></div></td></tr></table><p>Método permite al sistema mostrar diferentes paginas.<br />Dependiendo del valor de la variable opcion, se invocan diferentes métodos de la clase registro_noticia atravez del objeto funcion.<br /></p><p>Declaration :</p><ul><li>Uml : + html(in configuracion : array) : </li></ul><p> Constraint :<ul>Si al rescatar el valor de la variable opcion, no se obtiene algun valor, se asigna por defecto el valor nuevo.</ul><a name="refoperation130800"></a>
+<table><tr><td><div class="element">Operation <b>action</b></div></td></tr></table><p>Método que invoca atravez del objeto funcion, el método procesarRegistro de la clase registro_noticia, para ser ejecutado.<br /></p><p>Declaration :</p><ul><li>Uml : + action(in configuracion : array) : </li></ul><a name="refrelation129329"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class129648.html#refclass129648"><b>funciones</b></a></li></ul><a name="refrelation129713"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class129520.html#refclass129520"><b>sql</b></a></li></ul></div>
+<p>All public operations : <a href="class129392.html#refoperation130544"><b>_construct</b></a> , <a href="class129392.html#refoperation130800"><b>action</b></a> , <a href="class129392.html#refoperation130672"><b>html</b></a> </p>
+</body>
+</html>

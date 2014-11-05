@@ -1,0 +1,271 @@
+<!-- Documentation produced by the Html generator of Bouml (http://bouml.free.fr) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>portal_DWARE
+Documentation</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff" oncontextmenu="return false" onkeydown="return false">
+
+<div class = "title">portal_DWARE<br />Documentation</div>
+<p></p>
+<DIV align=center>
+<P>
+<OBJECT codeBase=http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0 height=446 width=763 align=middle classid=clsid:d27cdb6e-ae6d-11cf-96b8-444553540000><PARAM NAME="_cx" VALUE="20188"><PARAM NAME="_cy" VALUE="11800"><PARAM NAME="FlashVars" VALUE=""><PARAM NAME="Movie" VALUE="index.swf"><PARAM NAME="Src" VALUE="index.swf"><PARAM NAME="WMode" VALUE="Window"><PARAM NAME="Play" VALUE="-1"><PARAM NAME="Loop" VALUE="-1"><PARAM NAME="Quality" VALUE="High"><PARAM NAME="SAlign" VALUE=""><PARAM NAME="Menu" VALUE="-1"><PARAM NAME="Base" VALUE=""><PARAM NAME="AllowScriptAccess" VALUE="sameDomain"><PARAM NAME="Scale" VALUE="NoScale"><PARAM NAME="DeviceFont" VALUE="0"><PARAM NAME="EmbedMovie" VALUE="0"><PARAM NAME="BGColor" VALUE="FFFFFF"><PARAM NAME="SWRemote" VALUE=""><PARAM NAME="MovieData" VALUE=""><PARAM NAME="SeamlessTabbing" VALUE="1"><PARAM NAME="Profile" VALUE="0"><PARAM NAME="ProfileAddress" VALUE=""><PARAM NAME="ProfilePort" VALUE="0">
+                             
+      <embed src="index.swf" quality="high" scale="noscale" bgcolor="#ffffff" width="763" height="446" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />   
+    </OBJECT></P>
+<P> </P></DIV>  ESTE TRUCO SOLO FUNCIONA EN PAGINAS WEB PARA PROTEJER TU WEB
+<!-- ============================================================= -->
+
+<a name="refpackage129"></a>
+<p>Properties:<ul>
+<li>html dir:<br /><div class="sub">/home/jairolh/sistemas/sgp/documentacion/portal_DWARE/</div></p></li>
+</ul></p>
+<a name="refpackage128057"></a>
+<h1 class ="package">1 Package bloque</h1>
+<div class="sub">
+<a name="refpackage129264"></a>
+<h2 class ="package">1.1 Package registro_noticia</h2>
+<p>Bloque que permite publicar nuevas noticias en el portal<br /></p><p>Depends on <a href="index.html#refpackage129236"><b>menu_noticia</b></a></p><p>Stereotype: bloque</p>
+<div class="sub">
+<a name="refclass view129264"></a>
+<h3 class ="view">1.1.1 Class View registro_noticia</h3>
+<div class="sub">
+<a name="refclass diagram129264"></a>
+<p align="center"><img src="fig129264.png" alt="" /></p>
+ <p align="center"><b>registro_noticia</b></p><p><br /></p><p><br /></p>
+<table><tr><td><div class="element">Class <b><a href="class129264.html#refclass129264"><b>index</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class129392.html#refclass129392"><b>bloque</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class129520.html#refclass129520"><b>sql</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class129648.html#refclass129648"><b>funciones</b></a></b></div></td></tr></table>
+</div>
+</div>
+<a name="refpackage129236"></a>
+<h2 class ="package">1.2 Package menu_noticia</h2>
+<p>Bloque que maneja el menu del M�dulo noticias<br /></p><p>Stereotype: bloque</p>
+<div class="sub">
+<a name="refclass view129236"></a>
+<h3 class ="view">1.2.1 Class View menu_noticia</h3>
+<div class="sub">
+<a name="refclass diagram129236"></a>
+<p align="center"><img src="fig129236.png" alt="" /></p>
+ <p align="center"><b>menu_noticia</b></p><p><br /></p><p><br /></p>
+<table><tr><td><div class="element">Class <b><a href="class129236.html#refclass129236"><b>index</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class129277.html#refclass129277"><b>bloque</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class128038.html#refclass128038"><b>funciones</b></a></b></div></td></tr></table>
+</div>
+</div>
+<a name="refpackage129174"></a>
+<h2 class ="package">1.3 Package admin_noticia</h2>
+<p>Stereotype: bloque</p>
+<div class="sub">
+<a name="refclass view129174"></a>
+<h3 class ="view">1.3.1 Class View admin_noticia</h3>
+<div class="sub">
+<a name="refclass diagram129174"></a>
+<p align="center"><img src="fig129174.png" alt="" /></p>
+ <p align="center"><b>admin_noticia</b></p><p><br /></p><p><br /></p>
+<table><tr><td><div class="element">Class <b><a href="class129174.html#refclass129174"><b>index</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class128049.html#refclass128049"><b>sql</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class128177.html#refclass128177"><b>bloque</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class128561.html#refclass128561"><b>funciones</b></a></b></div></td></tr></table>
+</div>
+</div>
+<a name="refpackage129922"></a>
+<h2 class ="package">1.4 Package listar_noticia</h2>
+<p>Mod�lo que permite que las noticias publicadas en el sistema, se visualicen en la pagina principal del portal.<br /></p><p>Stereotype: bloque</p>
+<div class="sub">
+<a name="refclass view129410"></a>
+<h3 class ="view">1.4.1 Class View listar_noticia</h3>
+<div class="sub">
+<a name="refclass diagram129538"></a>
+<p align="center"><img src="fig129538.png" alt="" /></p>
+ <p align="center"><b>listar_noticia</b></p><p><br /></p><p><br /></p>
+<table><tr><td><div class="element">Class <b><a href="class132354.html#refclass132354"><b>index</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class131074.html#refclass131074"><b>sql</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class132226.html#refclass132226"><b>bloque</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class132482.html#refclass132482"><b>funcion</b></a></b></div></td></tr></table>
+</div>
+</div>
+<a name="refpackage131202"></a>
+<h2 class ="package">1.5 Package ver_noticia</h2>
+<p>M�dulo que permite visualizar los datos de las noticias<br /><br /></p><p>Stereotype: bloque</p>
+<div class="sub">
+<a name="refclass view130690"></a>
+<h3 class ="view">1.5.1 Class View ver_noticia</h3>
+<div class="sub">
+<a name="refclass diagram130818"></a>
+<p align="center"><img src="fig130818.png" alt="" /></p>
+ <p align="center"><b>ver_noticia</b></p><p><br /></p><p><br /></p>
+<table><tr><td><div class="element">Class <b><a href="class132738.html#refclass132738"><b>index</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class132866.html#refclass132866"><b>sql</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class132994.html#refclass132994"><b>bloque</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class133122.html#refclass133122"><b>funciones</b></a></b></div></td></tr></table>
+</div>
+</div>
+<a name="refpackage131330"></a>
+<h2 class ="package">1.6 Package borrar_registro</h2>
+<p>Permite borrar permanentemente registros de la base de datos.<br /><br />sirve para ser usado, por todos los modulos del sistema.<br /></p><p>Stereotype: bloque</p>
+<div class="sub">
+<a name="refclass view130818"></a>
+<h3 class ="view">1.6.1 Class View borrar_registro</h3>
+<div class="sub">
+<a name="refclass diagram130946"></a>
+<p align="center"><img src="fig130946.png" alt="" /></p>
+ <p align="center"><b>borrar_registro</b></p><p><br /></p><p><br /></p>
+<table><tr><td><div class="element">Class <b><a href="class133250.html#refclass133250"><b>bloque</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class133378.html#refclass133378"><b>html</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class133506.html#refclass133506"><b>Noticias</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class133634.html#refclass133634"><b>action</b></a></b></div></td></tr></table>
+</div>
+</div>
+</div>
+<a name="refpackage128002"></a>
+<h1 class ="package">2 Package arquitectura</h1>
+<div class="sub">
+<a name="refpackage128514"></a>
+<h2 class ="package">2.1 Package Portal_DWARE</h2>
+<p>Portal Web para informaci�n, administraci�n y segumiento del proyecto de Bodega de Datos. <br /></p><a name="refclass view128002"></a>
+<h2 class ="view">2.2 Class View arquitectura</h2>
+<div class="sub">
+<a name="refclass diagram128002"></a>
+<p align="center"><img src="fig128002.png" alt="" /></p>
+ <p align="center"><b>arquitectura_componentes</b></p><p><br /></p><p><br /></p>
+<table><tr><td><div class="element">Class <b><a href="class128002.html#refclass128002"><b>informacion_general</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class128130.html#refclass128130"><b>administracion_usuarios</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class128258.html#refclass128258"><b>administracion_Noticias</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class128386.html#refclass128386"><b>foro</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class128514.html#refclass128514"><b>caracteristicas</b></a></b></div></td></tr></table>
+<a name="refclass diagram128130"></a>
+<p align="center"><img src="fig128130.png" alt="" /></p>
+ <p align="center"><b>arquitectura_general</b></p><p><br /></p><p><br /></p>
+<table><tr><td><div class="element">Class <b><a href="class128642.html#refclass128642"><b>portal_DWARE</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class128770.html#refclass128770"><b>Informacion</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class128898.html#refclass128898"><b>RIA</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class129026.html#refclass129026"><b>IIA</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class129154.html#refclass129154"><b>Noticias</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class129282.html#refclass129282"><b>Foro</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class129410.html#refclass129410"><b>Wiki</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class129538.html#refclass129538"><b>Usuarios</b></a></b></div></td></tr></table>
+</div>
+<a name="refpackage128130"></a>
+<h2 class ="package">2.3 Package informacion</h2>
+<a name="refpackage128258"></a>
+<h2 class ="package">2.4 Package RIA</h2>
+<p>Componente para la identificaci�n y valoraci�n de Riesgos.<br /></p><a name="refpackage128386"></a>
+<h2 class ="package">2.5 Package IIA</h2>
+<p>Componente para la identificaci�n y valoraci�n de activos de informaci�n.<br /></p><a name="refpackage128642"></a>
+<h2 class ="package">2.6 Package Noticias</h2>
+<div class="sub">
+<a name="refclass view128130"></a>
+<h3 class ="view">2.6.1 Class View moduloNoticias</h3>
+<div class="sub">
+<a name="refclass diagram128258"></a>
+<p align="center"><img src="fig128258.png" alt="" /></p>
+ <p align="center"><b>moduloNoticias</b></p><p><br /></p><p><br /></p>
+</div>
+</div>
+<a name="refpackage128770"></a>
+<h2 class ="package">2.7 Package Jerarquia</h2>
+<div class="sub">
+<a name="refclass view128258"></a>
+<h3 class ="view">2.7.1 Class View jerarquiaElementos</h3>
+<div class="sub">
+<a name="refobject diagram128386"></a>
+<p align="center"><img src="fig128386.png" alt="" /></p>
+ <p align="center"><b>jerarquia</b></p><p><br /></p><p><br /></p>
+<table><tr><td><div class="element">Class <b><a href="class129666.html#refclass129666"><b>sistema</b></a></b></div></td></tr></table>
+<a name="refclass instance128002"></a>
+<table><tr><td><div class="element">Class instance  <b>sistema</div></td></tr></table><p>type :<a href="class129666.html#refclass129666"><b>sistema</b></a></p><a name="refclass instance128130"></a>
+<table><tr><td><div class="element">Class instance  <b></div></td></tr></table><p>type :<a href="class129666.html#refclass129666"><b>sistema</b></a></p><table><tr><td><div class="element">Class <b><a href="class129794.html#refclass129794"><b>subsistemas</b></a></b></div></td></tr></table>
+<a name="refclass instance128258"></a>
+<table><tr><td><div class="element">Class instance  <b></div></td></tr></table><p>type :<a href="class129794.html#refclass129794"><b>subsistemas</b></a></p><table><tr><td><div class="element">Class <b><a href="class129922.html#refclass129922"><b>modulo</b></a></b></div></td></tr></table>
+<a name="refclass instance128386"></a>
+<table><tr><td><div class="element">Class instance  <b></div></td></tr></table><p>type :<a href="class129922.html#refclass129922"><b>modulo</b></a></p></div>
+</div>
+</div>
+<a name="refpackage130050"></a>
+<h1 class ="package">3 Package clases</h1>
+<div class="sub">
+<a name="refclass view129538"></a>
+<h2 class ="view">3.1 Class View clases</h2>
+<div class="sub">
+<a name="refclass diagram129666"></a>
+<p align="center"><img src="fig129666.png" alt="" /></p>
+ <p align="center"><b>clases</b></p><p><br /></p><p><br /></p>
+<table><tr><td><div class="element">Class <b><a href="class128433.html#refclass128433"><b>navegacion.class</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class128305.html#refclass128305"><b>alerta.class</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class129776.html#refclass129776"><b>funcionRegistro.class</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class129904.html#refclass129904"><b>bloque.class</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class130032.html#refclass130032"><b>sql.class</b></a></b></div></td></tr></table>
+<table><tr><td><div class="element">Class <b><a href="class132610.html#refclass132610"><b>encriptar.class</b></a></b></div></td></tr></table>
+</div>
+</div>
+<a name="refpackage132482"></a>
+<h1 class ="package">4 Package casos_uso</h1>
+<div class="sub">
+<a name="refpackage133762"></a>
+<h2 class ="package">4.1 Package general</h2>
+<div class="sub">
+<a name="refuse case view129154"></a>
+<h3 class ="view">4.1.1 Use Case View session</h3>
+<div class="sub">
+<a name="refuse case diagram133250"></a>
+<p align="center"><img src="fig133250.png" alt="" /></p>
+ <p align="center"><b>gestionar_session</b></p><p><br /></p><p><br /></p>
+<table><tr><td><div class="element">Class <b><a href="class135938.html#refclass135938"><b>Usuario</b></a></b></div></td></tr></table>
+<a name="refuse case129154"></a>
+<h4 class ="usecase">4.1.1.1 Use Case gestionar_sesion</h4>
+<div class="sub">
+</div>
+<a name="refuse case129282"></a>
+<h4 class ="usecase">4.1.1.2 Use Case iniciar_session</h4>
+<p>ID  Caso de Uso: 001<br /><br />Nombre Caso de Uso:Iniciar sesi�n<br /><br />Fecha creaci�n:     Noviembre 14 de 2008<br />Fecha modificaci�n: <br /><br />Objetivo: Acceder al sistema<br /><br />Actores<br />Administrador, Director, Evaluador<br /><br />Precondiciones:<br />El usuario debe estar registrado en el portal<br /><br />Poscondiciones:<br />Ingreso del usuario al sistema, seg�n privilegios.<br /><br />Flujo Normal:<br />1.El portal en su pagina principal, muestra el formulario de ingreso<br />2.El usuario digita el nombre y la clave de  usuario <br />3.El sistema identifica tipo de usuario.<br />4.El sistema desbloquea los m�dulos al que el usuario puede acceder.<br /><br />Flujos Alternativos:<br />Clave o nombre de usuario erradas<br /><br />1.El usuario digita mal el nombre y/o la clave de  usuario<br />2.El sistema muestra el formulario para ingresar nuevamente el nombre y clave de usuario, con el error que ocurri�.<br /><br />Resultado:<br />Usuario interactuando con el sistema<br /><br /><br /></p>
+<a name="refuse case129410"></a>
+<h4 class ="usecase">4.1.1.3 Use Case cerrar_session</h4>
+<p>ID  Caso de Uso:002<br /><br />Nombre:<br />Cerrar session<br /><br />Objetivo: <br />Terminar con una sesi�n iniciada<br /><br />Fecha creaci�n:     Noviembre 14 de 2008<br />Fecha modificaci�n: <br /><br />Actores:<br />Administrador, Director, Evaluador<br /><br />Precondiciones:<br />Se debe haber iniciado la sesi�n anteriormente<br /><br />Poscondiciones:<br />Se podr� cerrar la Aplicaci�n.<br /><br />Flujo Normal:<br />1.El Usuario indica al Sistema que se desea cerrar sesi�n.<br />2.El sistema bloquea los m�dulos y muestra muestra la pagina de inicio del portal.<br /><br />Flujos Alternativos:<br />Se esta inactivo por un tiempo determinado<br />1.El sistema bloquea los m�dulos.<br /><br />* Informaci�n sin salvar: el sistema descartara los cambios hechos y que no fueron guardados al finalizar la sesi�n. Es responsabilidad del Usuario guardar la informaci�n suministrada antes de salir.<br /><br />Resultado:<br />terminar interacci�n del usuario con  el sistema<br /><br /><br /></p>
+</div>
+<a name="refuse case view129282"></a>
+<h3 class ="view">4.1.2 Use Case View ver_noticia</h3>
+<div class="sub">
+<a name="refuse case diagram133506"></a>
+<p align="center"><img src="fig133506.png" alt="" /></p>
+ <p align="center"><b>ver_noticia</b></p><p><br /></p><p><br /></p>
+<a name="refuse case130050"></a>
+<h4 class ="usecase">4.1.2.1 Use Case ver_noticia</h4>
+<p>ID  Caso de Uso: 006<br /><br />Nombre Caso de Uso: ver noticia.<br /><br />Objetivo: ver los datos completos de una noticia publicada.<br /><br />Fecha creaci�n:     Noviembre 14 de 2008<br />Fecha modificaci�n: <br /><br />Actores:<br />Administrador, Director, Evaluador<br /><br />Precondiciones:<br /><br />Poscondiciones:<br />Los datos de la noticia que se pueden ver en su totalidad.<br /><br />Flujo Normal:<br />1.El usuario ingresa al portal.<br />2.El sistema muestra una lista de noticias por tipo en la pagina principal del portal. <br />3.El usuario selecciona la noticia que desea consultar y da click en el titulo.<br />4.En la pagina principal del portal, el sistema muestra un fromulario con los datos de tipo, titulo, fecha publicacion, usuario que publico y contenido de la noticia seleccionada.<br /><br />Flujos Alternativos:<br /><br />Resultado:<br />Se visualizan los datos completos de una noticia.<br /></p>
+</div>
+</div>
+<a name="refpackage132610"></a>
+<h2 class ="package">4.2 Package noticias</h2>
+<div class="sub">
+<a name="refuse case view129410"></a>
+<h3 class ="view">4.2.1 Use Case View admin_noticia</h3>
+<div class="sub">
+<a name="refuse case diagram133378"></a>
+<p align="center"><img src="fig133378.png" alt="" /></p>
+ <p align="center"><b>admin_noticia</b></p><p><br /></p><p><br /></p>
+<table><tr><td><div class="element">Class <b><a href="class136066.html#refclass136066"><b>administrador</b></a></b></div></td></tr></table>
+<a name="refuse case129538"></a>
+<h4 class ="usecase">4.2.1.1 Use Case administrar_noticia</h4>
+<div class="sub">
+</div>
+<a name="refuse case129666"></a>
+<h4 class ="usecase">4.2.1.2 Use Case publicar_noticia</h4>
+<p>ID  Caso de Uso: 003<br /><br />Nombre Caso de Uso:publicar noticia.<br /><br />Fecha creaci�n:     Noviembre 14 de 2008<br />Fecha modificaci�n: <br /><br />Objetivo: Ingresar una nueva noticia al portal.<br /><br />Actores:<br />Administrador.<br /><br />Precondiciones:<br />1. El usuario debe haber iniciado una session.<br />2. El sistema debe estar en la pagina principal del modulo de administraci�n.<br /><br />Poscondiciones:<br />La noticia que se ha publicado se podra ver en la pagina principal del portal.<br /><br />Flujo Normal:<br />1.El usuario selecciona en el menu, administrar noticias.<br />2.El sistema va a la pagina principal del modulo administrar noticias. <br />3.El usuario selecciona en el menu, la opcion ingresar noticia.<br />4.El sistema muestra un formulario, para ingresar los datos de la noticia.<br />5.El usuario selecciona el tipo de noticia, ingresa el titulo, el cuerpo de la noticia y presiona el boton aceptar.<br />6.El sistema guarda el registro en la base de datos y muestra la pagina principal del modulo administrar noticia, mostrando una lista con la noticia que se acaba de ingresar<br /><br />Flujos Alternativos:<br /><br />Resultado:<br />Se guarda un registro de noticia que se puede visualizar en la pagina principal del portal dependeindo del tipo de noticia.<br /></p>
+<a name="refuse case129794"></a>
+<h4 class ="usecase">4.2.1.3 Use Case editar_noticia</h4>
+<p>ID  Caso de Uso: 004<br /><br />Nombre Caso de Uso: editar noticia.<br /><br />Objetivo: Modificar los datos de uan noticia publicada.<br /><br />Fecha creaci�n:     Noviembre 14 de 2008<br />Fecha modificaci�n: <br /><br />Actores:<br />Administrador.<br /><br />Precondiciones:<br />1. El usuario debe haber iniciado una session.<br />2. El sistema debe estar en la pagina principal del modulo de administraci�n de noticias.<br /><br />Poscondiciones:<br />Los datos de la noticia que se ha editado se podra ver en la pagina principal del portal.<br /><br />Flujo Normal:<br />1.El usuario selecciona en el menu, la opcion del tipo de noticia a editar.<br />2.El sistema muestra una lista de noticias del tipo que el usuario selecciono en la pagina principal de administrar noticias. <br />3.El usuario selecciona la opcion editar, junto a la noticia a editar.<br />4.El sistema muestra un formulario, con los datos de la noticia.<br />5.El usuario modifica el tipo de noticia, el titulo y/o el cuerpo de la noticia y presiona el boton aceptar.<br />6.El sistema modifica el registro en la base de datos y muestra la pagina principal del modulo administrar noticia, mostrando una lista con la noticia que se acaba de modificar<br /><br />Flujos Alternativos:<br /><br />El usuario oprime el boton cancelar en le formulario editar.<br /><br />6.El sistema muestra la pagina principal del modulo administrar noticia, mostrando una lista noticias, sin modificar el registro de la noticia.<br /><br />Resultado:<br />Se edita un registro de noticia que se puede visualizar en la pagina principal del portal dependeindo del tipo de noticia.<br /></p>
+<a name="refuse case129922"></a>
+<h4 class ="usecase">4.2.1.4 Use Case eliminar_noticia</h4>
+<p>ID  Caso de Uso: 005<br /><br />Nombre Caso de Uso: eliminar noticia.<br /><br />Objetivo: Eliminar el registro de una noticia publicada.<br /><br />Fecha creaci�n:     Noviembre 14 de 2008<br />Fecha modificaci�n: <br /><br />Actores:<br />Administrador.<br /><br />Precondiciones:<br />1. El usuario debe haber iniciado una session.<br />2. El sistema debe estar en la pagina principal del modulo de administraci�n de noticias.<br /><br />Poscondiciones:<br />Los datos de la noticia que se ha editado se podra ver en la pagina principal del portal.<br /><br />Flujo Normal:<br />1.El usuario selecciona en el menu, la opcion del tipo de noticia a eliminar.<br />2.El sistema muestra una lista de noticias del tipo que el usuario selecciono en la pagina principal de administrar noticias. <br />3.El usuario selecciona la opcion eliminar, junto a la noticia a editar.<br />4.El sistema muestra un mesaje de confirmaci�n para eliminar la noticia.<br />5.El usuario oprime la opcion SI.<br />6.El sistema busca el registro de la noticia en la base de datos y lo borra, luego muestra la pagina principal del modulo administrar noticia, mostrando la lista de noticias, exepto la que se acabo de eliminar.<br /><br />Flujos Alternativos:<br /><br />El usuario selecciona la opcion NO en el mensaje de confirmaci�n.<br /><br />6.El sistema muestra la pagina principal del modulo administrar noticia, mostrando una lista noticias, sin eliminar el registro de la noticia.<br /><br />Resultado:<br />Se borra un registro de noticia que ya no se podra visualizar en la pagina principal del portal.<br /></p>
+</div>
+</div>
+</div>
+</body>
+</html>

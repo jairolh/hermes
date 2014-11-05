@@ -1,0 +1,38 @@
+<!-- Documentation produced by the Html generator of Bouml (http://bouml.free.fr) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class portal_Item_escala</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class portal_Item_escala</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="refclass140418"></a>
+<p>Tabla en la que se guardan los items de las escalas de valoración.<br /></p><p>Declaration :</p><ul><li>C++ : class portal_Item_escala </li><li>Php :  class portal_Item_escala </li></ul><div class="sub">
+<a name="refattribute138882"></a>
+<table><tr><td><div class="element">Attribute <b>id_item</b></div></td></tr></table>
+<p>Campo que actua como llave Primaria.<br />Guarda la identificación interna del Item de la escala de valoración.<br />Campo Autoincremental.<br /></p><p>Declaration :</p><ul><li>Uml : # id_item : char</li><li>C++ : protected: char id_item</li><li>Php : protected $id_item</li></ul><p>Stereotype: PK</p>
+<a name="refattribute139010"></a>
+<table><tr><td><div class="element">Attribute <b>id_escala</b></div></td></tr></table>
+<p>Campo que actua como llave Foranea.<br />Guarda la identificación interna de la escala de valoración.<br />Campo que se relaciona con id_escala en la tabla portal_escala_valoracion.<br /></p><p>Declaration :</p><ul><li>Uml : # id_escala : int</li><li>C++ : protected: int id_escala</li><li>Php : protected $id_escala</li></ul><p>Stereotype: FK</p>
+<a name="refattribute139138"></a>
+<table><tr><td><div class="element">Attribute <b>numero_item</b></div></td></tr></table>
+<p>Campo en el que se guarda el número que identifica el item en la escala de valoración<br /></p><p>Declaration :</p><ul><li>Uml : # numero_item : int</li><li>C++ : protected: int numero_item</li><li>Php : protected $numero_item</li></ul><a name="refattribute139266"></a>
+<table><tr><td><div class="element">Attribute <b>descripcion</b></div></td></tr></table>
+<p>Campo en el que se guarda el nombre o la caracteristica cualitativa del item, para la caracteristica del activo.<br /></p><p>Declaration :</p><ul><li>Uml : # descripcion : char</li><li>C++ : protected: char descripcion</li><li>Php : protected $descripcion</li></ul><a name="refattribute139394"></a>
+<table><tr><td><div class="element">Attribute <b>abreviatura</b></div></td></tr></table>
+<p>Campo en el que se almacena la abreviatura de la descripcion o nombre del item.<br /></p><p>Declaration :</p><ul><li>Uml : # abreviatura : char</li><li>C++ : protected: char abreviatura</li><li>Php : protected $abreviatura</li></ul><a name="refattribute139522"></a>
+<table><tr><td><div class="element">Attribute <b>valor_numerico</b></div></td></tr></table>
+<p>Campo en el que se almacena el valor cuantitativo del item, para la caracteristica del activo.<br /></p><p>Declaration :</p><ul><li>Uml : # valor_numerico : int</li><li>C++ : protected: int valor_numerico</li><li>Php : protected $valor_numerico</li></ul><a name="refrelation143362"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class140546.html#refclass140546"><b>portal_rango</b></a>, multiplicity : 1</li><li>C++ : protected: <a href="class140546.html#refclass140546"><b>portal_rango</b></a> * </li><li>Php : protected $</li></ul><a name="refrelation143618"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class140162.html#refclass140162"><b>portal_escala_valoracion</b></a>, multiplicity : 1</li><li>C++ : protected: <a href="class140162.html#refclass140162"><b>portal_escala_valoracion</b></a> * </li><li>Php : protected $</li></ul></div>
+</body>
+</html>

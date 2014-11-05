@@ -1,0 +1,36 @@
+<!-- Documentation produced by the Html generator of Bouml (http://bouml.free.fr) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class portal_nivel_activo</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class portal_nivel_activo</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="refclass139394"></a>
+<p>Declaration :</p><ul><li>C++ : class portal_nivel_activo </li><li>Php :  class portal_nivel_activo </li></ul><div class="sub">
+<a name="refattribute134146"></a>
+<table><tr><td><div class="element">Attribute <b>id_activo</b></div></td></tr></table>
+<p>Campo que actua como llave Foranea.<br />Almacena la identificación interna de los activos.<br />Campo relacionado con id_activo de la tabla portal_activo<br /></p><p>Declaration :</p><ul><li>Uml : # id_activo : int</li><li>C++ : protected: int id_activo</li><li>Php : protected $id_activo</li></ul><p>Stereotype: FK</p>
+<a name="refattribute134274"></a>
+<table><tr><td><div class="element">Attribute <b>id_nivel</b></div></td></tr></table>
+<p>Campo que actua como llave foranea.<br />Guarda la identificación interna del nivel que se da a los activos.<br />Campo relacionado con id_tipo de la tabla portal_variable.<br /></p><p>Declaration :</p><ul><li>Uml : # id_nivel : int</li><li>C++ : protected: int id_nivel</li><li>Php : protected $id_nivel</li></ul><p>Stereotype: FK</p>
+<a name="refattribute134402"></a>
+<table><tr><td><div class="element">Attribute <b>id_RIA</b></div></td></tr></table>
+<p>Campo que actua como llave foranea.<br />Almacena la identificación interna del poceso de identificación de riesgos.<br />Campo relacionado con id_RIA de la tabla portal_RIA.<br /></p><p>Declaration :</p><ul><li>Uml : # id_RIA : int</li><li>C++ : protected: int id_RIA</li><li>Php : protected $id_RIA</li></ul><p>Stereotype: FK</p>
+<a name="refattribute134530"></a>
+<table><tr><td><div class="element">Attribute <b>fecha</b></div></td></tr></table>
+<p>Campo en el que se almacena la fecha en que se relaciona el activo a un nivel y a un proceso de identificación de activos.<br /></p><p>Declaration :</p><ul><li>Uml : # fecha : char</li><li>C++ : protected: char fecha</li><li>Php : protected $fecha</li></ul><a name="refrelation141058"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class139266.html#refclass139266"><b>portal_activo</b></a>, multiplicity : 1</li><li>C++ : protected: <a href="class139266.html#refclass139266"><b>portal_activo</b></a> * </li><li>Php : protected $</li></ul><a name="refrelation142466"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class137858.html#refclass137858"><b>portal_RIA</b></a>, multiplicity : 1</li><li>C++ : protected: <a href="class137858.html#refclass137858"><b>portal_RIA</b></a> * </li><li>Php : protected $</li></ul><a name="refrelation142722"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class137346.html#refclass137346"><b>portal_variable</b></a>, multiplicity : 1</li><li>C++ : protected: <a href="class137346.html#refclass137346"><b>portal_variable</b></a> * </li><li>Php : protected $</li></ul></div>
+</body>
+</html>

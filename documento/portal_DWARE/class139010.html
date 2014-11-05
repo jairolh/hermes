@@ -1,0 +1,34 @@
+<!-- Documentation produced by the Html generator of Bouml (http://bouml.free.fr) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class portal_proyecto_RIA</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class portal_proyecto_RIA</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="refclass139010"></a>
+<p>Tabla donde se relacionan los proyectos con los procesos de identificación y valoración de riesgos.<br /></p><p>Declaration :</p><ul><li>C++ : class portal_proyecto_RIA </li><li>Php :  class portal_proyecto_RIA </li></ul><div class="sub">
+<a name="refattribute132610"></a>
+<table><tr><td><div class="element">Attribute <b>id_proyecto</b></div></td></tr></table>
+<p>Campo que actua como llave foranea.<br />Guarda la identificación interna del proyecto.<br />Campo relacionado con id_proyecto de la tabla portal_proyecto.<br /></p><p>Declaration :</p><ul><li>Uml : # id_proyecto : int</li><li>C++ : protected: int id_proyecto</li><li>Php : protected $id_proyecto</li></ul><p>Stereotype: FK</p>
+<a name="refattribute132738"></a>
+<table><tr><td><div class="element">Attribute <b>id_RIA</b></div></td></tr></table>
+<p>Campo que actua como llave Foranea.<br />Guarda la identificación interna del proceso de identificación y valoración de riesgos.<br />Campo relacionado con id_RIA de la tabla portal_RIA.<br /></p><p>Declaration :</p><ul><li>Uml : # id_RIA : int</li><li>C++ : protected: int id_RIA</li><li>Php : protected $id_RIA</li></ul><p>Stereotype: FK</p>
+<a name="refattribute132866"></a>
+<table><tr><td><div class="element">Attribute <b>fecha_relacion</b></div></td></tr></table>
+<p>Campo en el que se almacena la fecha en la que se relaciono el proyecto con el proceso de identificación de riesgos.<br /></p><p>Declaration :</p><ul><li>Uml : # fecha_relacion : char</li><li>C++ : protected: char fecha_relacion</li><li>Php : protected $fecha_relacion</li></ul><a name="refattribute132994"></a>
+<table><tr><td><div class="element">Attribute <b>descripcion</b></div></td></tr></table>
+<p>Campo en el que se almacena una breve descripcion acerca de la relación del proyecto y el proceso RIA.<br /></p><p>Declaration :</p><ul><li>Uml : # descripcion : char</li><li>C++ : protected: char descripcion</li><li>Php : protected $descripcion</li></ul><a name="refrelation140290"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class137602.html#refclass137602"><b>portal_proyecto</b></a>, multiplicity : 1</li><li>C++ : protected: <a href="class137602.html#refclass137602"><b>portal_proyecto</b></a> * </li><li>Php : protected $</li></ul><a name="refrelation140546"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class137858.html#refclass137858"><b>portal_RIA</b></a>, multiplicity : 1</li><li>C++ : protected: <a href="class137858.html#refclass137858"><b>portal_RIA</b></a> * </li><li>Php : protected $</li></ul></div>
+</body>
+</html>

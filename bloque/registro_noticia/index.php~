@@ -1,0 +1,3 @@
+<?
+include("../index.php");//regresa a la pagina principal en caso de ingreso sin iniciar sesion
+?>

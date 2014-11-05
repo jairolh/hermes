@@ -1,0 +1,35 @@
+<!-- Documentation produced by the Html generator of Bouml (http://bouml.free.fr) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class funciones</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class funciones</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="refclass128561"></a>
+<p>Declaration :</p><ul></ul><div class="sub">
+<a name="refoperation128817"></a>
+<table><tr><td><div class="element">Operation <b>_construct</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + _construct() : </li></ul><a name="refrelation129201"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class128177.html#refclass128177"><b>bloque</b></a></li></ul><a name="refoperation129713"></a>
+<table><tr><td><div class="element">Operation <b>nuevoRegistro</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + nuevoRegistro() : </li></ul><a name="refoperation129841"></a>
+<table><tr><td><div class="element">Operation <b>editarRegistro</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + editarRegistro() : </li></ul><a name="refoperation129969"></a>
+<table><tr><td><div class="element">Operation <b>mostrarRegistro</b></div></td></tr></table><p>Método permita la generacion de la lista de noticias publicadas, invoca la clase sql para la generación de las sentencias sql, e invocal el Método lista_registro_noticia apra la visualización de los registros en una lista, tambien dependiendo de la cantidad de registros tambien invoca la clase navegacion y asi mostrar un menu de paginación <br /></p><p>Declaration :</p><ul><li>Uml : + mostrarRegistro(in configuracion : array, in tema : char, in id_entidad : int, in acceso_db : array, in formulario : array) : </li></ul><a name="refoperation130097"></a>
+<table><tr><td><div class="element">Operation <b>corregirRegistro</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + corregirRegistro() : </li></ul><a name="refrelation130353"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class129776.html#refclass129776"><b>funcionRegistro.class</b></a></li></ul><a name="refrelation130429"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class128305.html#refclass128305"><b>alerta.class</b></a></li></ul><a name="refrelation130685"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class128433.html#refclass128433"><b>navegacion.class</b></a></li></ul><a name="refoperation130685"></a>
+<table><tr><td><div class="element">Operation <b>conectar_db</b></div></td></tr></table><p>Método que permite crear una conexión a la base de datos, creando un objeto acceso_db de la clase dbms.<br /></p><p>Declaration :</p><ul><li>Uml : + conectar_db(in configuracion : array) : </li></ul><a name="refoperation128064"></a>
+<table><tr><td><div class="element">Operation <b>lista_registro_noticia</b></div></td></tr></table><p>Método que recibe los dátos de una búsqueda, en la variable registro, y genera una tabla mediante un for, con la cantidad de campos que recibe la variable campos, en esta lista se da la opción, que el usuario seleccione editar o eliminar cada uno de los registros, visualizados en la tabla<br /></p><p>Declaration :</p><ul><li>Uml : + lista_registro_noticia(in configuracion : array, in registro : array, in campos : int, in tema : array, in acceso_db : array) : </li></ul><a name="refrelation133506"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class132610.html#refclass132610"><b>encriptar.class</b></a></li></ul></div>
+<p>All public operations : <a href="class128561.html#refoperation128817"><b>_construct</b></a> , <a href="class128561.html#refoperation130685"><b>conectar_db</b></a> , <a href="class128561.html#refoperation130097"><b>corregirRegistro</b></a> , <a href="class128561.html#refoperation129841"><b>editarRegistro</b></a> , <a href="class128561.html#refoperation128064"><b>lista_registro_noticia</b></a> , <a href="class128561.html#refoperation129969"><b>mostrarRegistro</b></a> , <a href="class128561.html#refoperation129713"><b>nuevoRegistro</b></a> </p>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!-- Documentation produced by the Html generator of Bouml (http://bouml.free.fr) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Class portal_integrante_proyecto</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Class portal_integrante_proyecto</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="refclass137730"></a>
+<p>Tabla en donde se registran los integrantes de los proyectos y el cargo o nivel en el proyecto.<br /></p><p>Declaration :</p><ul><li>C++ : class portal_integrante_proyecto </li><li>Php :  class portal_integrante_proyecto </li></ul><div class="sub">
+<a name="refattribute130434"></a>
+<table><tr><td><div class="element">Attribute <b>id_proyecto</b></div></td></tr></table>
+<p>Campo que actua como llave foranea, donde se guarda la identificación interna de los proyectos.<br />Esta relacionado con id_proyecto de la tabla portal_proyecto<br /></p><p>Declaration :</p><ul><li>Uml : # id_proyecto : int</li><li>C++ : protected: int id_proyecto</li><li>Php : protected $id_proyecto</li></ul><p>Stereotype: FK</p>
+<a name="refattribute130562"></a>
+<table><tr><td><div class="element">Attribute <b>id_usuario</b></div></td></tr></table>
+<p>Campo que actua como llave Foranea.<br />Guarda la identificacion interna de los usuarios que integran los proyectos.<br />Campo relacionado con id_usuario de la tabla portal_registrado<br /></p><p>Declaration :</p><ul><li>Uml : # id_usuario : int</li><li>C++ : protected: int id_usuario</li><li>Php : protected $id_usuario</li></ul><p>Stereotype: FK</p>
+<a name="refattribute130690"></a>
+<table><tr><td><div class="element">Attribute <b>fecha_ingreso</b></div></td></tr></table>
+<p>Campo en el que se guarda la fecha en que se relaciona el usuario al proyecto.<br /></p><p>Declaration :</p><ul><li>Uml : # fecha_ingreso : char</li><li>C++ : protected: char fecha_ingreso</li><li>Php : protected $fecha_ingreso</li></ul><a name="refattribute130818"></a>
+<table><tr><td><div class="element">Attribute <b>descripcion</b></div></td></tr></table>
+<p>Campo donde se descrive brevemente, las funciones del uauario en el proyecto.<br /></p><p>Declaration :</p><ul><li>Uml : # descripcion : char</li><li>C++ : protected: char descripcion</li><li>Php : protected $descripcion</li></ul><a name="refattribute130946"></a>
+<table><tr><td><div class="element">Attribute <b>id_nivel</b></div></td></tr></table>
+<p>Campo que actua como llave Foranea.<br />Guarda la identificacion interna que define el nivel o cargo del usuario en el proyecto.<br />Se relaciona con id_tipo en la tabla basico_variable<br /></p><p>Declaration :</p><ul><li>Uml : # id_nivel : int</li><li>C++ : protected: int id_nivel</li><li>Php : protected $id_nivel</li></ul><p>Stereotype: FK</p>
+<a name="refattribute131074"></a>
+<table><tr><td><div class="element">Attribute <b>estado</b></div></td></tr></table>
+<p>Campo en el que se define es estado (Activo - inactivo) de un usuario en un proyecto.<br /><br /></p><p>Declaration :</p><ul><li>Uml : # estado : char</li><li>C++ : protected: char estado</li><li>Php : protected $estado</li></ul><a name="refrelation137986"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class137602.html#refclass137602"><b>portal_proyecto</b></a>, multiplicity : 1</li><li>C++ : protected: <a href="class137602.html#refclass137602"><b>portal_proyecto</b></a> * </li><li>Php : protected $</li></ul><a name="refrelation138114"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class137218.html#refclass137218"><b>portal_registrado</b></a>, multiplicity : 1</li><li>C++ : protected: <a href="class137218.html#refclass137218"><b>portal_registrado</b></a> * </li><li>Php : protected $</li></ul><a name="refrelation138498"></a>
+<table><tr><td><div class="element">Relation <b>&lt;association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : #  : <a href="class137346.html#refclass137346"><b>portal_variable</b></a>, multiplicity : 1</li><li>C++ : protected: <a href="class137346.html#refclass137346"><b>portal_variable</b></a> * </li><li>Php : protected $</li></ul></div>
+</body>
+</html>

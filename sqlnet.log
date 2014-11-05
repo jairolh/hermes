@@ -1,0 +1,54 @@
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=XE)(CID=(PROGRAM=httpd@oasdes-78)(HOST=oasdes-78)(USER=daemon)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.1.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.1.0 - Production
+  Time: 23-APR-2009 15:57:11
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=XE)(CID=(PROGRAM=httpd@oasdes-78)(HOST=oasdes-78)(USER=daemon)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.1.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.1.0 - Production
+  Time: 29-APR-2009 15:50:45
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=XE)(CID=(PROGRAM=httpd@oasdes-78)(HOST=oasdes-78)(USER=daemon)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 10.2.0.1.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 10.2.0.1.0 - Production
+  Time: 10-JUN-2009 09:30:35
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
