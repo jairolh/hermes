@@ -43,7 +43,7 @@ Copyright (C) 2001-2005
 				<table align="center" border="0" cellpadding="5" cellspacing="0" class="bloquelateral_2">
 					<tr class="centralcuerpo">
 						<td colspan="2">
-						<b>...:::: *</b>  Ingresar <b> * ::::...</b>
+						<b>...:::: *:</b>  Ingresar <b> :* ::::...</b>
 						</td>
 					</tr>
 					<tr class="bloquelateralcuerpo">
